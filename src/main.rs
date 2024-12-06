@@ -2,6 +2,7 @@ use aoc2024::{
     day01,
     day02,
     day03,
+    day04,
 };
 
 use std::collections::HashSet;
@@ -32,5 +33,13 @@ fn main() {
         println!("  Part 02: {}", day03::part02().unwrap());
 		println!("");
 	}
+
+  	if args.is_empty() || args.contains("4") {
+		println!("Day 04");
+		println!("  Part 01: {}", day04::part01().unwrap());
+        println!("  Part 02: {}", day04::part02().unwrap());
+		println!("");
+	}
+
 }
 
